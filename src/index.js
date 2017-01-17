@@ -39,7 +39,7 @@ class MyComponent extends React.Component {
                     }
                     else
                     {
-                        alert("text is empty");
+                      //  alert("text is empty");
                     }
                 }}>add text
                 </button>
@@ -56,13 +56,13 @@ class TextComponent extends  React.Component{
     componentWillMount()
     {
         //初始时调用
-        alert(this.props.text+" added!");
+     //   alert(this.props.text+" added!");
     }
 
     componentWillUnmount()
     {
         //销毁时调用
-        alert(this.props.text+" removed!");
+      //  alert(this.props.text+" removed!");
     }
 
     render()
@@ -92,6 +92,6 @@ ReactDOM.render(
 
 // show how to use jquery in react
 $(document).ready(function () {
-    alert("ready!");
+   // alert("ready!");
 })
 
